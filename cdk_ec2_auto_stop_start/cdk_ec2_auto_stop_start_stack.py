@@ -1,8 +1,6 @@
 from aws_cdk import (
     Stack,
     aws_ec2 as ec2,
-    aws_lambda as _lambda,
-    aws_iam as iam,
     aws_events as events,
     aws_events_targets as targets
 )
